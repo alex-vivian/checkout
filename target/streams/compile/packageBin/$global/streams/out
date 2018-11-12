@@ -1,0 +1,35 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/checkout_2.12-0.0.1-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Purchase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Purchase$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerStream$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/ServerStream$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Price$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Price$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Basket$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Basket$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CheckoutService$$anonfun$service$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/CheckoutService$$anonfun$service$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Offer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Offer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Purchase.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Purchase.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CheckoutServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/CheckoutServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CheckoutServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/CheckoutServer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	checkout.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/checkout.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Basket.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Basket.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Price.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Price.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ServerStream.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/ServerStream.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Offer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/Offer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CheckoutService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/CheckoutService.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	checkout$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/classes/checkout$.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
