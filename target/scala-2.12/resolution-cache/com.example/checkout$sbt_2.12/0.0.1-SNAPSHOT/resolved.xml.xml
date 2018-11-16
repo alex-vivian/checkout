@@ -4,7 +4,7 @@
 		module="checkout$sbt_2.12"
 		revision="0.0.1-SNAPSHOT"
 		status="integration"
-		publication="20181112084609"
+		publication="20181116122152"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

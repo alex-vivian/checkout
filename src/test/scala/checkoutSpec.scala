@@ -1,8 +1,5 @@
 import org.scalatest.{FunSpec, Matchers}
-import scalacache._
 import scalacache.modes.sync._
-import scalacache.caffeine.CaffeineCache
-import com.github.benmanes.caffeine.cache.Caffeine
 
 class checkoutSpec extends FunSpec with Matchers {
 
@@ -14,14 +11,14 @@ class checkoutSpec extends FunSpec with Matchers {
     }
   }
 
-  describe("getting prices") {
-    it("should create a vector containing the price rules") {
-      val basket = Basket.apply()
-      val prices = basket.prices
-      prices(0) shouldEqual Price("A", 50.0, Some(Offer(3, 130.0)))
-      prices(2) shouldEqual Price("C", 20, None)
-    }
-  }
+//  describe("getting prices") {
+//    it("should create a vector containing the price rules") {
+//      val basket = Basket.apply()
+//      val prices = basket.prices
+//      prices(0) shouldEqual Price("A", 50.0, Some(Offer(3, 130.0)))
+//      prices(2) shouldEqual Price("C", 20, None)
+//    }
+//  }
 
   describe("adding items to basket") {
     it("should add A to the basket") {
@@ -73,4 +70,39 @@ class checkoutSpec extends FunSpec with Matchers {
     }
   }
 
+  describe("adding a item to a database") {
+   it("should add item to a database") {
+     val basket = Basket.apply()
+     basket.addAvailableItem(Price("L", 20, Some(Offer(1,2))))
+
+   }
+  }
+
+  describe("deleting item from a database") {
+    it("should delete the item with the given SKU from the database") {
+      val basket = Basket.apply()
+      basket.removeAvailableItem("L")
+    }
+  }
+
+  describe("adding offer to an existing item") {
+    it("should add offer to existing item") {
+      val basket = Basket.apply()
+      basket.addOffer("D", Offer(3, 30))
+    }
+  }
+
+  describe("removing offer from an existing item") {
+    it("should remove offer from existing item") {
+      val basket = Basket.apply()
+      basket.removeOffer("D")
+    }
+  }
+
+  describe("updating price from an existing item") {
+    it("should update price for existing item") {
+      val basket = Basket.apply()
+      basket.updatePrice("D", 16)
+    }
+  }
 }

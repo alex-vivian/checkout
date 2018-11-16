@@ -1,26 +1,50 @@
-import java.nio.file.{Files, Paths}
 import scalacache._
 import scalacache.modes.sync._
 import scalacache.caffeine.CaffeineCache
 import com.github.benmanes.caffeine.cache.Caffeine
+import io.circe._
+import doobie.imports._
+
+
+case class Price(SKU: String, price: Double, offerPrice: Option[Offer])
+
+object Price {
+  import io.circe.generic.semiauto.deriveEncoder
+  implicit val priceEncoder: Encoder[Price] = deriveEncoder[Price]
+}
+
+case class Offer(units: Int, price: Double)
+
+object Offer {
+  import io.circe.generic.semiauto.deriveEncoder
+
+  implicit val offerEncoder: Encoder[Offer] = deriveEncoder[Offer]
+}
+case class Purchase(SKU: String, quant: Int)
+
+object Purchase {
+  import io.circe.generic.semiauto.deriveEncoder
+
+  implicit val offerEncoder: Encoder[Purchase] = deriveEncoder[Purchase]
+}
 
 case class Basket(price: Vector[Price]) {
 
-  val prices = if (price == Vector()) Basket.getPrices() else price
+  //val prices = if (price == Vector()) Basket.getPrices() else price
 
   val purchases: Cache[Vector[Purchase]] = CaffeineCache(Caffeine.newBuilder.build[String, Entry[Vector[Purchase]]])
 
   def addToBasket(item: String) =
-    Basket.addToBasket(item, purchases, prices)
+    Basket.addToBasket(item, purchases, Basket.getPrices())
 
   def itemExists(item: String): Boolean =
-    Basket.itemExists(item, prices)
+    Basket.itemExists(item, Basket.getPrices())
 
   def removeFromBasket(item: String) =
     Basket.removeFromBasket(item, purchases)
 
-  def availableItems: String =
-    Basket.availableItems(prices: Vector[Price])
+  def availableItems(): List[Price] =
+    Basket.availableItems(Basket.getPrices(): Vector[Price])
 
   def clearBasket() =
     Basket.clearBasket(purchases)
@@ -29,7 +53,28 @@ case class Basket(price: Vector[Price]) {
     Basket.contents(purchases)
 
   def totalPrice(): Double =
-    Basket.totalPrice(prices, purchases)
+    Basket.totalPrice(Basket.getPrices(), purchases)
+
+  def addAvailableItem(p: Price): Int = {
+    Basket.addAvailableItem(p)
+  }
+
+  def removeAvailableItem(p: String): Int = {
+    Basket.removeAvailableItem(p)
+  }
+
+  def addOffer(sku: String, o: Offer): Int = {
+     Basket.addOffer(sku, o)
+  }
+
+  def removeOffer(sku: String): Int = {
+    Basket.removeOffer(sku)
+  }
+
+  def updatePrice(sku: String, p: Double): Int = {
+    Basket.updatePrice(sku, p)
+  }
+
 }
 
 object Basket {
@@ -44,35 +89,17 @@ object Basket {
     }
   }
 
-  //returns String for price object, including offer is one is available
-  def priceString(p: Price): String =
-    p match {
-      case Price(a, b, None)              => a + ": " + b
-      case Price(a, b, Some(Offer(c, d))) => a + ": " + b + " or " + c + " for " + d
-    }
-
   //combines price strings for all items
-  def availableItems(prices: Vector[Price]): String = {
-
-    def loop(i: Int): String =
-      if (i == prices.length) ""
-      else priceString(prices(i)) + "\n" + loop(i + 1)
-    loop(0)
-  }
+  def availableItems(prices: Vector[Price]): List[Price] =
+    prices.toList
 
   //returns string containing all items in purchased along with their quantity
-  def contents(purchases: Cache[Vector[Purchase]]): String = {
+  def contents(purchases: Cache[Vector[Purchase]]): List[Purchase] = {
     val inBasket = purchases.get("basket")
-
-    def loop(i: Int, allItems: Vector[Purchase]): String =
-      if (i == allItems.size) ""
-      else allItems(i).SKU + ": " + allItems(i).quant + "\n" + loop(i + 1, allItems)
-
     inBasket match {
-      case None => "Basket Empty"
-      case Some(allItems) =>
-        val itemList = loop(0, allItems)
-        if (itemList.length == 0) "Empty Basket" else itemList
+      case None           => List()
+      case Some(allItems) => allItems.toList
+
     }
   }
 
@@ -100,15 +127,19 @@ object Basket {
       else {
         val itemPrice = getPrice(allItems(i).SKU, prices)
         itemPrice match {
-          case Some(Price(x, y, None)) => allItems(i).quant * y + loop(i + 1, allItems)
+          case Some(Price(x, y, None)) =>
+            allItems(i).quant * y + loop(i + 1, allItems)
+
           case Some(Price(x, y, Some(Offer(a, b)))) =>
             offerPrice(allItems(i).quant, y, Offer(a, b)) + loop(i + 1, allItems)
+
           case None => loop(i + 1, allItems)
         }
       }
+
     inBasket match {
-      case None             => 0
-      case (Some(allItems)) => loop(0, allItems)
+      case None           => 0
+      case Some(allItems) => loop(0, allItems)
     }
   }
 
@@ -165,10 +196,11 @@ object Basket {
 
     if (itemExists(item, prices)) {
       inBasket match {
-        case None => {
+        case None =>
           purchases.put("basket")(Vector(Purchase(item, 1)), None)
-        }
-        case Some(allItems) => purchases.put("basket")(addToExistingBasket(allItems, item), None)
+
+        case Some(allItems) =>
+          purchases.put("basket")(addToExistingBasket(allItems, item), None)
       }
     }
 
@@ -186,32 +218,67 @@ object Basket {
       }
 
     loop(0)
-
   }
 
-  //creates a vector of Price objects from price file
   def getPrices(): Vector[Price] = {
-    //pricing rules are gotten from text file and each item is an entry in an array
-    val priceRule = new String(Files.readAllBytes(Paths.get("rules.txt"))).split("\\n")
+
+    val xa = DriverManagerTransactor[IOLite]("org.postgresql.Driver", "jdbc:postgresql:checkout", "alexvivi", "")
+
+    val priceRule = sql"SELECT * FROM items"
+      .query[(Option[String], Option[Double], Option[Int], Option[Double])]
+      .list
+      .transact(xa)
+      .unsafePerformIO
 
     def loop(i: Int): Vector[Price] =
       if (i < priceRule.size) {
-        val p = priceRule(i).split(" ").toList
-        p match {
-          case List(a, b) if b.toDouble > 0 => Price(a, b.toDouble, None) +: loop(i + 1)
-          case List(a, b, c, d) if b.toDouble > 0 && c.toInt > 0 && d.toDouble > 0 =>
-            Price(a, b.toDouble, Some(Offer(c.toInt, d.toDouble))) +: loop(i + 1)
-          case _ => loop(i + 1)
-
+        priceRule(i) match {
+          case (Some(w), Some(x), Some(y), Some(z)) =>
+            Price(w, x, Some(Offer(y, z))) +: loop(i + 1)
+          case (Some(w), Some(x), None, None) =>
+            Price(w, x, None) +: loop(i + 1)
+          case (_, _, _, _) =>
+            loop(i + 1)
         }
       } else Vector()
 
     loop(0)
   }
+
+  def addAvailableItem(p: Price): Int =
+  {
+    val xa = DriverManagerTransactor[IOLite]("org.postgresql.Driver", "jdbc:postgresql:checkout", "alexvivi", "")
+
+    p match {
+      case Price(x, y, None) =>
+        sql"INSERT INTO items VALUES($x, $y)".update.run.transact(xa).unsafePerformIO
+      case Price(x, y , Some(Offer(a, b))) =>
+        sql"INSERT INTO items VALUES($x, $y, $a, $b)".update.run.transact(xa).unsafePerformIO
+    }
+
+
+  }
+
+  def removeAvailableItem(p: String): Int =
+  {
+    val xa = DriverManagerTransactor[IOLite]("org.postgresql.Driver", "jdbc:postgresql:checkout", "alexvivi", "")
+    sql"DELETE FROM items where sku = $p".update.run.transact(xa).unsafePerformIO
+  }
+
+  def addOffer(sku: String, o: Offer): Int = {
+    val xa = DriverManagerTransactor[IOLite]("org.postgresql.Driver", "jdbc:postgresql:checkout", "alexvivi", "")
+    sql"UPDATE items SET offer_units =${o.units}, offer_price = ${o.price} WHERE sku = $sku".update.run.transact(xa).unsafePerformIO
+  }
+
+  def removeOffer(sku: String): Int = {
+    val xa = DriverManagerTransactor[IOLite]("org.postgresql.Driver", "jdbc:postgresql:checkout", "alexvivi", "")
+    sql"UPDATE items SET offer_units = null, offer_price =  null WHERE sku = $sku".update.run.transact(xa).unsafePerformIO
+  }
+
+
+  def updatePrice(sku: String, p: Double): Int = {
+    val xa = DriverManagerTransactor[IOLite]("org.postgresql.Driver", "jdbc:postgresql:checkout", "alexvivi", "")
+    sql"UPDATE items SET price = $p WHERE sku = $sku".update.run.transact(xa).unsafePerformIO
+  }
+
 }
-
-case class Price(SKU: String, price: Double, offerPrice: Option[Offer])
-
-case class Offer(units: Int, price: Double)
-
-case class Purchase(SKU: String, quant: Int)

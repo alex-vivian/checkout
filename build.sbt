@@ -1,6 +1,8 @@
 val Http4sVersion  = "0.18.19"
 val Specs2Version  = "4.1.0"
 val LogbackVersion = "1.2.3"
+val circeVersion = "0.10.0"
+lazy val doobieVersion = "0.4.2"
 
 val itvOasvcLibs = "ITV Oasvc repo" at "http://itvrepos.jfrog.io/itvrepos/oasvc-ivy"
 val credentialsLocation: RichFile =
@@ -22,9 +24,19 @@ lazy val root = (project in file("."))
       "org.slf4j"        % "slf4j-api"            % "1.7.25",
       "com.github.cb372" %% "scalacache-core"     % "0.24.0",
       "com.github.cb372" %% "scalacache-caffeine" % "0.24.0",
+      "io.circe" %% "circe-core"                  % circeVersion,
+      "io.circe" %% "circe-generic"               % circeVersion,
+      "io.circe" %% "circe-parser"                % circeVersion,
+      "io.circe" %% "circe-literal"               % "0.10.0-M1",
+      "org.tpolecat" %% "doobie-core"       % doobieVersion,
+      "org.tpolecat" %% "doobie-postgres"   % doobieVersion,
+      "org.tpolecat" %% "doobie-specs2"     % doobieVersion
     ),
+    
     addCompilerPlugin("org.spire-math" %% "kind-projector"     % "0.9.6"),
     addCompilerPlugin("com.olegpy"     %% "better-monadic-for" % "0.2.4"),
     resolvers += itvOasvcLibs,
     credentials += Credentials(credentialsLocation.asFile)
+
+
   )

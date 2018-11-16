@@ -7,7 +7,7 @@
 		revision="0.0.1-SNAPSHOT"
 		conf="compile"
 		confs="default, compile, runtime, test, provided, optional"
-		date="20181112084611"/>
+		date="20181116122154"/>
 	<dependencies>
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="1.2.6" status="release" pubdate="20181017072438" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sbt/sbt" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
