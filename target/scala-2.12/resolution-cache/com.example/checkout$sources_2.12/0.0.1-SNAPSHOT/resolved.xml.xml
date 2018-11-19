@@ -4,7 +4,7 @@
 		module="checkout$sources_2.12"
 		revision="0.0.1-SNAPSHOT"
 		status="integration"
-		publication="20181116122154"
+		publication="20181119122943"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

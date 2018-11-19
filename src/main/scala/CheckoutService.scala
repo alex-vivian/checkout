@@ -4,6 +4,9 @@ import org.http4s.dsl.Http4sDsl
 import io.circe.generic.auto._
 import io.circe.syntax._
 import org.http4s.circe._
+import org.http4s.client.Client
+import org.http4s.client.blaze.Http1Client
+
 
 object CheckoutService extends Http4sDsl[IO] {
 
@@ -27,7 +30,9 @@ object CheckoutService extends Http4sDsl[IO] {
   def service(): HttpService[IO] =
     HttpService[IO] {
       case GET -> Root / "menu" =>
-        Ok().withBody(basket.availableItems().asJson.noSpaces)
+        val client: Client[IO] = Http1Client[IO]().unsafeRunSync
+        Ok().withBody(CheckoutClient.thing(client))
+
 
       case request @ POST -> Root / "addItem" =>
         for {

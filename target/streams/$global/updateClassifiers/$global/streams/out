@@ -82,6 +82,21 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default]
+[debug] sbt-chain: Checking cache for: dependency: org.http4s#http4s-blaze-client_2.12;0.18.19 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master]}
+[debug] sbt-chain: module revision found in cache: org.http4s#http4s-blaze-client_2.12;0.18.19
+[debug] 	found org.http4s#http4s-blaze-client_2.12;0.18.19 in sbt-chain
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.12;7.2.12 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.12;7.2.12
@@ -93,6 +108,17 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] sbt-chain: Checking cache for: dependency: org.http4s#http4s-client_2.12;0.18.19 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
+[debug] sbt-chain: module revision found in cache: org.http4s#http4s-client_2.12;0.18.19
+[debug] 	found org.http4s#http4s-client_2.12;0.18.19 in sbt-chain
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.http4s#http4s-blaze-core_2.12;0.18.19 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.http4s#http4s-blaze-core_2.12;0.18.19
@@ -762,6 +788,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
@@ -770,6 +808,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
@@ -1283,6 +1329,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
@@ -1291,6 +1349,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
@@ -1806,6 +1872,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
@@ -1814,6 +1892,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
@@ -2319,6 +2405,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
@@ -2327,6 +2425,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
@@ -2841,6 +2947,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test->compile]
@@ -2871,6 +2989,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test->compile]
@@ -3430,6 +3556,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
@@ -3438,6 +3576,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
@@ -3953,6 +4099,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile-internal->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile-internal->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile-internal->compile]
@@ -3961,6 +4119,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile-internal->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile-internal->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile-internal->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile-internal->compile]
@@ -4478,6 +4644,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
@@ -4486,6 +4664,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
@@ -4999,6 +5185,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
@@ -5007,6 +5205,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
@@ -5521,6 +5727,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime-internal->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime-internal->compile]
@@ -5529,6 +5747,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime-internal->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime-internal->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime-internal->compile]
@@ -6053,6 +6279,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
@@ -6061,6 +6299,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [compile->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [compile->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [compile->compile]
@@ -6598,6 +6844,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
@@ -6606,6 +6864,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [runtime->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [runtime->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [runtime->compile]
@@ -7141,6 +7407,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test->compile]
@@ -7165,6 +7443,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test->compile]
@@ -7708,6 +7994,18 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-core_2.12;0.18.19 [test-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->default]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->default(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-client_2.12;0.18.19 [test-internal->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.scalaz#scalaz-effect_2.12;7.2.12 [test-internal->compile]
@@ -7732,6 +8030,14 @@
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test-internal->compile(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.specs2#specs2-matcher_2.12;4.1.0 [test-internal->master]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->runtime(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->master(compile)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->runtime]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->compile]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->compile(*)]
+[debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-client_2.12;0.18.19 [test-internal->master]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test-internal->compile]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test-internal->runtime(*)]
 [debug] == resolving dependencies com.example#checkout$sources;0.0.1-SNAPSHOT->org.http4s#http4s-blaze-core_2.12;0.18.19 [test-internal->compile]
@@ -8335,73 +8641,75 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.typelevel#cats-effect_2.12;0.10.1!cats-effect_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalaz.stream#scalaz-stream_2.12;0.8.6a!scalaz-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;3.9.4!specs2-matcher_2.12.jar(src)
-[debug] 	[NOT REQUIRED] co.fs2#fs2-core_2.12;0.10.6!fs2-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#http4s-websocket_2.12;0.2.1!http4s-websocket_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;3.9.4!specs2-matcher_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#blaze-http_2.12;0.12.13!blaze-http_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#http4s-core_2.12;0.18.19!http4s-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.http4s#http4s-blaze-client_2.12;0.18.19!http4s-blaze-client_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.12;7.2.12!scalaz-effect_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;3.9.4!specs2-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#http4s-blaze-core_2.12;0.18.19!http4s-blaze-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.http4s#http4s-client_2.12;0.18.19!http4s-client_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;3.9.4!specs2-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] co.fs2#fs2-core_2.12;0.10.6!fs2-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.4.0!cats-macros_2.12.jar(src)
 [debug] 	[NOT REQUIRED] co.fs2#fs2-io_2.12;0.10.6!fs2-io_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.3!shapeless_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.log4s#log4s_2.12;1.6.1!log4s_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.alpn#alpn-api;1.1.3.v20160715!alpn-api.jar(src)
-[debug] 	[NOT REQUIRED] org.tpolecat#doobie-specs2_2.12;0.4.2!doobie-specs2_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalaz.stream#scalaz-stream_2.12;0.8.6a!scalaz-stream_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.13.0!jawn-parser_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.http4s#http4s-server_2.12;0.18.19!http4s-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.tpolecat#doobie-specs2_2.12;0.4.2!doobie-specs2_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.6.2!caffeine.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;3.9.4!specs2-common_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.http4s#http4s-server_2.12;0.18.19!http4s-server_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.tpolecat#doobie-core_2.12;0.4.2!doobie-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] co.fs2#fs2-scodec_2.12;0.10.6!fs2-scodec_2.12.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] com.twitter#hpack;1.0.2!hpack.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;3.9.4!specs2-common_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.github.cb372#scalacache-core_2.12;0.24.0!scalacache-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.github.cb372#scalacache-caffeine_2.12;0.24.0!scalacache-caffeine_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.tpolecat#doobie-postgres_2.12;0.4.2!doobie-postgres_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#blaze-core_2.12;0.12.13!blaze-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.tpolecat#doobie-postgres_2.12;0.4.2!doobie-postgres_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.http4s#http4s-circe_2.12;0.18.19!http4s-circe_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#http4s-blaze-server_2.12;0.18.19!http4s-blaze-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.10.0!circe-numbers_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.4.0!cats-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.4.0!cats-kernel_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.http4s#http4s-circe_2.12;0.18.19!http4s-circe_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.5!machinist_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#http4s-dsl_2.12;0.18.19!http4s-dsl_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.6!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.10.0!circe-jawn_2.12.jar(src)
-[debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.10.0!circe-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#http4s-jawn_2.12;0.18.19!http4s-jawn_2.12.jar(src)
-[debug] 	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.10.0!circe-numbers_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.http4s#jawn-fs2_2.12;0.12.2!jawn-fs2_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.http4s#jawn-fs2_2.12;0.12.2!jawn-fs2_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.10.0!circe-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.http4s#parboiled_2.12;1.0.0!parboiled_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.7!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.postgresql#postgresql;42.1.1!postgresql.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-core_2.12;0.10.0!circe-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-literal_2.12;0.10.0-M1!circe-literal_2.12.jar(src)
 [debug] 	[NOT REQUIRED] io.circe#circe-generic_2.12;0.10.0!circe-generic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.12;7.2.12!scalaz-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.12;7.2.7!scalaz-concurrent_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.1.0!specs2-matcher_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.1.0!specs2-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scodec#scodec-bits_2.12;1.1.6!scodec-bits_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.1.0!specs2-matcher_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;4.1.0!specs2-common_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.1.0!specs2-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.0!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.10.0!circe-jawn_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.specs2#specs2-fp_2.12;4.1.0!specs2-fp_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.spire-math#kind-projector_2.12;0.9.6!kind-projector_2.12.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
 [debug] 	[NOT REQUIRED] com.olegpy#better-monadic-for_2.12;0.2.4!better-monadic-for_2.12.jar(src)
-[debug] :: resolution report :: resolve 861ms :: artifacts dl 11ms
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] :: resolution report :: resolve 918ms :: artifacts dl 18ms
 [debug] 	report for com.example#checkout$sources;0.0.1-SNAPSHOT compile produced in /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/resolution-cache/reports/com.example-checkout$sources-compile.xml
 [debug] 	report for com.example#checkout$sources;0.0.1-SNAPSHOT runtime produced in /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/resolution-cache/reports/com.example-checkout$sources-runtime.xml
 [debug] 	report for com.example#checkout$sources;0.0.1-SNAPSHOT test produced in /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/resolution-cache/reports/com.example-checkout$sources-test.xml
@@ -8413,4 +8721,4 @@
 [debug] 	report for com.example#checkout$sources;0.0.1-SNAPSHOT plugin produced in /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/resolution-cache/reports/com.example-checkout$sources-plugin.xml
 [debug] 	report for com.example#checkout$sources;0.0.1-SNAPSHOT pom produced in /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/resolution-cache/reports/com.example-checkout$sources-pom.xml
 [debug] 	report for com.example#checkout$sources;0.0.1-SNAPSHOT scala-tool produced in /Users/alexvivi/IdeaProjects/checkout/target/scala-2.12/resolution-cache/reports/com.example-checkout$sources-scala-tool.xml
-[debug] 	resolve done (861ms resolve - 11ms download)
+[debug] 	resolve done (918ms resolve - 18ms download)

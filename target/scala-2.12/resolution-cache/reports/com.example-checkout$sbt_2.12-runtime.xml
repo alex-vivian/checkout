@@ -7,7 +7,7 @@
 		revision="0.0.1-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional"
-		date="20181116122152"/>
+		date="20181119122941"/>
 	<dependencies>
 		<module organisation="com.geirsson" name="sbt-scalafmt">
 			<revision name="1.5.1" status="release" pubdate="20180426122143" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalameta/scalafmt" extra-scalaVersion="2.12" extra-sbtVersion="1.0" extra-info.apiURL="https://olafurpg.github.io/scalafmt/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">

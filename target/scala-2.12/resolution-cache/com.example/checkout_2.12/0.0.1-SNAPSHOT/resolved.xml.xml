@@ -4,7 +4,7 @@
 		module="checkout_2.12"
 		revision="0.0.1-SNAPSHOT"
 		status="integration"
-		publication="20181116090931"
+		publication="20181119105344"
 	>
 		<description>
 		checkout
@@ -34,6 +34,7 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
 		<dependency org="org.http4s" name="http4s-blaze-server_2.12" rev="0.18.19" conf="compile->default(compile)"/>
+		<dependency org="org.http4s" name="http4s-blaze-client_2.12" rev="0.18.19" conf="compile->default(compile)"/>
 		<dependency org="org.http4s" name="http4s-circe_2.12" rev="0.18.19" conf="compile->default(compile)"/>
 		<dependency org="org.http4s" name="http4s-dsl_2.12" rev="0.18.19" conf="compile->default(compile)"/>
 		<dependency org="org.specs2" name="specs2-core_2.12" rev="4.1.0" conf="test->default(compile)"/>
