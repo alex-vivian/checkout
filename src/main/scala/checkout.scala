@@ -1,9 +1,9 @@
-import scalacache._
-import scalacache.modes.sync._
-import scalacache.caffeine.CaffeineCache
 import com.github.benmanes.caffeine.cache.Caffeine
-import io.circe._
 import doobie.imports._
+import io.circe._
+import scalacache._
+import scalacache.caffeine.CaffeineCache
+import scalacache.modes.sync._
 
 
 case class Price(SKU: String, price: Double, offerPrice: Option[Offer])

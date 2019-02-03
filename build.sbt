@@ -4,9 +4,9 @@ val LogbackVersion = "1.2.3"
 val circeVersion = "0.10.0"
 lazy val doobieVersion = "0.4.2"
 
-val itvOasvcLibs = "ITV Oasvc repo" at "http://itvrepos.jfrog.io/itvrepos/oasvc-ivy"
-val credentialsLocation: RichFile =
-  sys.props.get("credentials.location").map(Path(_)).getOrElse(Path.userHome / ".ivy2" / ".credentials")
+//val itvOasvcLibs = "ITV Oasvc repo" at "http://itvrepos.jfrog.io/itvrepos/oasvc-ivy"
+//val credentialsLocation: RichFile =
+//  sys.props.get("credentials.location").map(Path(_)).getOrElse(Path.userHome / ".ivy2" / ".credentials")
 
 lazy val root = (project in file("."))
   .settings(
@@ -31,13 +31,15 @@ lazy val root = (project in file("."))
       "io.circe" %% "circe-literal"               % "0.10.0-M1",
       "org.tpolecat" %% "doobie-core"       % doobieVersion,
       "org.tpolecat" %% "doobie-postgres"   % doobieVersion,
-      "org.tpolecat" %% "doobie-specs2"     % doobieVersion
+      "org.tpolecat" %% "doobie-specs2"     % doobieVersion,
+      "com.github.seratch" %% "awscala-sqs" % "0.8.+"
     ),
     
     addCompilerPlugin("org.spire-math" %% "kind-projector"     % "0.9.6"),
-    addCompilerPlugin("com.olegpy"     %% "better-monadic-for" % "0.2.4"),
-    resolvers += itvOasvcLibs,
-    credentials += Credentials(credentialsLocation.asFile)
+
+       addCompilerPlugin("com.olegpy"     %% "better-monadic-for" % "0.2.4"),
+//    resolvers += itvOasvcLibs,
+//    credentials += Credentials(credentialsLocation.asFile)
 
 
   )

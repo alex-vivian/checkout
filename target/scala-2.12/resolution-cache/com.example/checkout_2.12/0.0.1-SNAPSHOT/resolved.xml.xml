@@ -4,7 +4,7 @@
 		module="checkout_2.12"
 		revision="0.0.1-SNAPSHOT"
 		status="integration"
-		publication="20181119105344"
+		publication="20190201140938"
 	>
 		<description>
 		checkout
@@ -49,6 +49,7 @@
 		<dependency org="org.tpolecat" name="doobie-core_2.12" rev="0.4.2" conf="compile->default(compile)"/>
 		<dependency org="org.tpolecat" name="doobie-postgres_2.12" rev="0.4.2" conf="compile->default(compile)"/>
 		<dependency org="org.tpolecat" name="doobie-specs2_2.12" rev="0.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.github.seratch" name="awscala-sqs_2.12" rev="0.8.+" conf="compile->default(compile)"/>
 		<dependency org="org.spire-math" name="kind-projector_2.12" rev="0.9.6" conf="plugin->default(compile)"/>
 		<dependency org="com.olegpy" name="better-monadic-for_2.12" rev="0.2.4" conf="plugin->default(compile)"/>
 	</dependencies>

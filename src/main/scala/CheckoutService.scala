@@ -6,10 +6,11 @@ import io.circe.syntax._
 import org.http4s.circe._
 import org.http4s.client.Client
 import org.http4s.client.blaze.Http1Client
-
+import awscala._, sqs._
 
 object CheckoutService extends Http4sDsl[IO] {
 
+  implicit val sqs = SQS.at(Region.Ohio)
   val basket = Basket.apply()
 
   case class Item(SKU: String)
@@ -30,8 +31,7 @@ object CheckoutService extends Http4sDsl[IO] {
   def service(): HttpService[IO] =
     HttpService[IO] {
       case GET -> Root / "menu" =>
-        val client: Client[IO] = Http1Client[IO]().unsafeRunSync
-        Ok().withBody(CheckoutClient.thing(client))
+        Ok().withBody(availableItems)
 
 
       case request @ POST -> Root / "addItem" =>
@@ -84,6 +84,11 @@ object CheckoutService extends Http4sDsl[IO] {
           price <- request.as[pUpdate]
           resp  <- Ok(updatePriceDB(price.SKU, price.cost))
         } yield (resp)
+
+      case GET -> root/"checkout" =>
+       val queue: Queue = sqs.createQueueAndReturnQueueName("orders")
+        queue.add(basketContents())
+        Ok().withBody("Checked out")
 
     }
 

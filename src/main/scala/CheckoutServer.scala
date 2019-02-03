@@ -1,6 +1,7 @@
 import cats.effect.IO
 import fs2.StreamApp
 import org.http4s.server.blaze.BlazeBuilder
+
 import scala.concurrent.ExecutionContext
 
 object CheckoutServer extends StreamApp[IO] {

@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mcheckoutSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mreturns string containing menu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a string containing the menu[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32madding items to basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add A to the basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add 2 units of A to the basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mremoving items from basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- shouldn't change purchases item is not present[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should reduce the number of units of a given item in the basket by 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mtotal cost of basket[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return the total cost of all items in the basket, including any offer prices[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32madding a item to a database[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add item to a database[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdeleting item from a database[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should delete the item with the given SKU from the database[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32madding offer to an existing item[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add offer to existing item[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mremoving offer from an existing item[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should remove offer from existing item[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mupdating price from an existing item[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update price for existing item[0m[0m
